@@ -1,0 +1,8 @@
+{
+  "short_name": "DSAII",
+  "name": "DSAII 2024 - A cultural fest of NITAP",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

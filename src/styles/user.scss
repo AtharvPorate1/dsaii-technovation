@@ -1,0 +1,105 @@
+ 
+.icon {
+    display: flex;
+    color: inherit;
+    margin-right: 0.8rem;
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+        fill: currentColor;
+    }
+}
+
+.box 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 45px;
+    justify-content: space-around;
+    font-family: 'Antonio', sans-serif;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.profile 
+{
+    line-height: 2rem;
+}
+.Registerbtn
+{
+    width: 100px;
+    font-size: small;
+    padding:8px;
+    .link {
+        color:white;
+    }
+}
+.register
+{
+    background-color: rgb(23, 173, 23);
+    color:white;
+}
+.titleContainer 
+{
+    color:#9b9ea0;
+    font-size: 0.8rem;
+}
+.btnComponent
+{
+    height: 100%;
+    width:170px;
+    font-size: small;
+}
+.logOutBtn 
+{   
+    margin:auto;
+    width:300px;
+}
+ 
+@media screen and (max-width:1000px)
+{
+    .box 
+    {
+        column-gap: 20px;
+        row-gap:40px;
+    }
+    .centerItem 
+    {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .box 
+    {   
+        column-gap: 20px;
+        row-gap:40px;
+    }
+
+
+
+    .buttonClass
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:496px)
+{
+    .box 
+    {   
+        column-gap: 20px;
+        row-gap:40px;
+    }
+
+}
+.buttonClass
+{   display: flex;
+    padding-top:10px;
+    padding-bottom: 10px;
+    align-items: center;
+    gap:20px;
+}
