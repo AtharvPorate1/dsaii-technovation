@@ -65,13 +65,18 @@ const Hero = () => {
       </video>
       <div className={styles.content}>
         <h1 className={styles.logo}>
-          <span className='shouldAnimate'>D</span>
-          <span className='shouldAnimate'>S</span>
+          <span className='shouldAnimate'>T</span>
+          <span className='shouldAnimate'>E</span>
+          <span className='shouldAnimate'>C</span>
+          <span className='shouldAnimate'>H</span>
+          <span className='shouldAnimate'>N</span>
+          <span className='shouldAnimate'>O</span>
+          <span className='shouldAnimate'>V</span>
           <span className='shouldAnimate'>A</span>
+          <span className='shouldAnimate'>T</span>
           <span className='shouldAnimate'>I</span>
-          <span className='shouldAnimate'>I</span>
-          {/* <span className='shouldAnimate'>a</span>
-          <span className='shouldAnimate'>m</span> */}
+          <span className='shouldAnimate'>O</span>
+          <span className='shouldAnimate'>N</span>
         </h1>
         
         <div className={styles.timeline}>

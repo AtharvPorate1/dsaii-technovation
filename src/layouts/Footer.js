@@ -48,7 +48,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/">
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/technovation.dit/">
                   <svg role="presentation" aria-label="Twitter" aria-hidden="true">
                     <use href="/media/icons/sprite.svg#social-instagram"></use>
                   </svg>

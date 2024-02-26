@@ -41,13 +41,11 @@ const Home = ({ user }) => {
         </div>
         <header className={cx(styles.introContent, styles.sectionHeader, 'container')}>
           <h2 className={styles.heading}>
-            <span style={{ marginRight: '3ch' }}>DSAII</span>
-            <span className={styles._ar}>2024</span>
+            <span style={{ marginRight: '3ch', color:'#15293D' }}>Technovation</span>
+            <span className={styles._ar} style={{color:'#15293D'}}>2024</span>
           </h2>
           <p className={styles.subtitle}>
-            DSAII is the annual cultural festival of DYPIT Pimpri. A splendid idea realised by a group of students in 2012 at NITAP giving birth to DSAII as we know it today.<br />
-            After three years, we return with a more niwe and creative community than ever.
-          </p>
+          TECHNOVATION WAS A STIMULATING AND ENRICHING EVENT HELD ON 24TH-25TH APRIL 2023. IT FEATURED A HACKATHON AND PROJECT COMPETITION INITIATED BY THE DSAII CLUB. THE EVENT AIMED TO BRING TOGETHER TALENTED ENGINEERING STUDENTS FROM ACROSS THE COUNTRY, PROVIDING THEM WITH A PLATFORM TO SHOWCASE THEIR SKILLS AND COMPETE IN THEIR RESPECTIVE DOMAINS. THE EVENT SERVED AS A PLATFORM FOR BUDDING INNOVATORS TO DEMONSTRATE THEIR INGENUITY AND CREATIVITY          </p>
           <div className={styles['header-btn-wrapper']}>
             <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
               <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>DSAII'24 in reels</span>

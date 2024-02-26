@@ -89,7 +89,7 @@
         font-size: 1rem;
         font-weight: 500;
         position: absolute;
-        width: 300px;
+        width: 1000px;
         bottom: calc(((0.6 * var(--heading-font-size)) - 96px) / 2);
         left: calc((1.14 * var(--heading-font-size)) - 150px);
     }
@@ -132,7 +132,7 @@
             animation: 120s infinite linear marquee;    
         }
         .rail:nth-child(3) {
-            color: #efefef;
+            color: #c9c8c8;
             top: 50%;
             animation: 100s infinite linear marquee;
         }
@@ -146,7 +146,7 @@
     @media screen and (min-width: 999px) {
         .subtitle {
             font-size: 1.4rem;
-            width: 500px;
+            width: 1000px;
             left: calc((1.14 * var(--heading-font-size)) - 250px);
         }
     }
