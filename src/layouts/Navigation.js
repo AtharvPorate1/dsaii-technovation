@@ -6,7 +6,7 @@ const links = [
   { link: '/', name: 'Home', onlyMobile: true },
   { link: '/events', name: 'What\'s on' },
   { link: '/gallery', name: 'Gallery' },
-  { link: '/register', name: 'Register', auth: true },
+  // { link: '/register', name: 'Register', auth: true },
   { link: '/user', name: 'Profile', auth: true },
 ]
 
@@ -63,10 +63,10 @@ const Navigation = ({ user }) => {
           {links.filter(link => !link.auth || user.user).map(link =>
             <li key={link.name}><NavItem handleClick={toggleMobileNav} {...link} /></li>
           )}
-          {!user.user && (
+          {/* {!user.user && (
             <li key={'noauth'}><NavItem handleClick={toggleMobileNav}
               {...{ link: '/signup', name: 'Register' }} /></li>
-          )}
+          )} */}
           {user.user && user.admin && (
             <li key={'noauth'}><NavItem handleClick={toggleMobileNav}
               {...{ link: '/admin', name: 'Admin' }} /></li>
