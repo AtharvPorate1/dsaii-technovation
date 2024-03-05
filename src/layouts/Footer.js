@@ -23,7 +23,7 @@ const Footer = () => {
           <div>
             <div className={styles.LogoContainer}>
               {/* <img src={logo} alt=""></img> */}
-              <div className={styles.title}>DSAII'24</div>
+              {/* <div className={styles.title}>DSAII'24</div> */}
             </div>
           </div>
           <div className={styles['sponsor-wrapper']}>

@@ -2,7 +2,7 @@
 .home-section {
     padding-top: 6rem;
     padding-bottom: 8rem;
-    --heading-font-size: 16vw;
+    --heading-font-size: 15vw;
     overflow-x: hidden;
 
     .sectionHeader {
@@ -22,7 +22,7 @@
         }
     }
 
-    .heading {
+    .headingTeam {
         font-family: "Antonio", sans-serif;
         display: flex;
         flex-direction: column;
@@ -43,6 +43,43 @@
     @media screen and (max-width: 760px) {
         --heading-font-size: 24vw;
     }
+    @media only screen and (max-width: 450px) {
+        .heading {
+            font-size: 20vw;
+            width: 60vw;
+            transform: translateX(-75px);
+            
+        }
+      }
+      .heading {
+        font-family: "Antonio", sans-serif;
+        display: flex;
+        flex-direction: column;
+        font-size: var(--heading-font-size);
+        font-weight: 200;
+        letter-spacing: -0.15ch;
+        line-height: 0.9;
+        text-transform: uppercase;
+        width: 100%;
+        max-width: fit-content;
+        transform: translateX(-0.15ch);
+    }
+
+    @media screen and (max-width: 999px) {
+        --heading-font-size: 20vw;
+    }
+
+    @media screen and (max-width: 760px) {
+        --heading-font-size: 24vw;
+    }
+    @media only screen and (max-width: 450px) {
+        .heading {
+            font-size: 20vw;
+            width: 60vw;
+            transform: translateX(-75px);
+            
+        }
+      }
 }
 
 .home-section:last-child {
@@ -196,6 +233,7 @@
     .hlgallery {
         display: grid;
         gap: 0.625rem;
+        padding-bottom: 0%;
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas:
             'a a b b b c c'

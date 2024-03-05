@@ -90,39 +90,39 @@ export const mainCoordinators = [
 ]
 ;
 
-export const highlights = ['0', '1','2',];
+export const highlights = ['0', '1','2'];
 
 export const events = {
   "0": {
     "id": "0",
-    "title": "TechNova: Technical Project Competition",
-    "figureSrc": "/media/events/dj.jpeg",
+    "title": "TechNova",
+    "figureSrc": "/media/events/technova.jpeg.jpg",
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "Venue 1",
-    "desc": "Individuals or teams can showcase technical skills with diverse projects, solving problems or enhancing processes. Choose themes, technologies, or address social/environmental issues. Present to judges for evaluation based on technical quality, creativity, innovation, and impact.",
+    "desc": "Welcome to TechNova, our flagship event that celebrates vision and technical excellence! ",
     "type": "Technical",
     "highlight": false
   },
   "1": {
     "id": "1",
-    "title": "Temporal Nexus: Tech Hackathon",
-    "figureSrc": "/media/events/dance.jpeg",
+    "title": "Diplomatrix",
+    "figureSrc": "/media/events/diplo.jpeg.jpg",
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "Venue 1",
-    "desc": "Unleash your logic and coding prowess at the 2-day Tech Hackathon! Day 1 throws down a gauntlet of mind-bending quizzes, testing your technical knowledge and wit. Only the top 70% of teams advance to Day 2, where you'll choose your weapon: AI or Data Structures coding challenges. Top teams in each domain will be crowned champions, with the ultimate winner securing a guaranteed internship interview and bragging rights.",
+    "desc": "Welcome to Diplomatrix, a dynamic event designed to foster research propagation, corporate engagement experience, collaboration, and communication skills in the realm of Global Governance of Artificial Intelligence (AI). ",
     "type": "Technical",
     "highlight": false
   },
   "2": {
     "id": "2",
-    "title": "Diplomatrix: Global AI Governance",
-    "figureSrc": "/media/events/band.jpg",
+    "title": "Bug Buster",
+    "figureSrc": "/media/events/bug3.jpeg.jpg",
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "Venue 1",
-    "desc": "Explore research propagation, collaboration, and diplomatic engagement with MNC teams, researchers, and an ethical committee. Event phases include agenda presentations, collaboration, and resolution drafting, culminating in judges' evaluation. Join us for concise presentations and insightful resolutions at DIPLOMATRIX!",
+    "desc": "Welcome to Bug Busters, where the code debugging champions are born! Bug Busters is a thrilling two-round contest designed to put your error correction skills to the ultimate test",
     "type": "Technical",
     "highlight": false
   },

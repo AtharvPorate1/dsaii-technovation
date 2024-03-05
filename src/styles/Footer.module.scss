@@ -77,6 +77,12 @@ footer {
         left: 50%;
         bottom: 1.8rem;
         transform: translate(-50%, 0);
+
+        @media screen and (max-width: 450px) {
+            font-size: 1rem;
+            margin-top: 50px;
+            
+        }
     }
 }
 
