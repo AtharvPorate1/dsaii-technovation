@@ -77,6 +77,8 @@ const Hero = () => {
           <span className='shouldAnimate'>I</span>
           <span className='shouldAnimate'>O</span>
           <span className='shouldAnimate'>N</span>
+          <span className='shouldAnimate'>2.</span>
+          <span className='shouldAnimate'>0</span>
         </h1>
         
         <div className={styles.timeline}>

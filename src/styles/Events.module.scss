@@ -146,12 +146,13 @@
                     overflow: hidden;
                     padding: 2.5rem 0.625rem 0.4375rem 0.625rem;
                     z-index: 1;
-                    font-size: 1rem;
+                    font-size: 1.333rem;
                     font-weight: 700;
                     line-height: 1.04;
                     .time {
                         transition: 0.3s cubic-bezier(.86, 0, .07, .995);
                     }
+                    
 
                     .title {
                         order: 2;

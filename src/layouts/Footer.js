@@ -28,7 +28,9 @@ const Footer = () => {
           </div>
           <div className={styles['sponsor-wrapper']}>
             <div className={styles.sponsor}>
-              <p style={{ textAlign: "center", fontSize: '1.2rem' }}>Our Sponsors</p>
+              {/* <p style={{ textAlign: "center", fontSize: '1.2rem' }}>Our Sponsors</p> */}
+              
+            
               <div className={styles.sponsorImgs}>
                 {/* <img className={styles.sponsors} src={echoOfArunachal} alt=""></img>
                 <img className={styles.sponsors} src={hotelObsidianBlue} alt=""></img> */}
@@ -67,11 +69,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className={styles.thanks}>
+          {/* <div className={styles.thanks}>
             <span>Thank you</span>
             <br />
             <span>for your support</span>
-          </div>
+          </div> */}
           <div>
             {/* <img src={bye} style={{ height: "160px", width: "auto" }} alt=""></img> */}
           </div>

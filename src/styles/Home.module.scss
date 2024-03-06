@@ -1,4 +1,5 @@
 // ----- All sections ----- COMMON
+
 .home-section {
     padding-top: 6rem;
     padding-bottom: 8rem;
@@ -20,6 +21,16 @@
         ._ac {
             text-align: center;
         }
+
+        @media screen and (max-width: 999px) {
+            ._ar{
+                margin-right: 2rem;
+                margin-top: 0.5rem;
+            }
+
+            
+        }
+
     }
 
     .headingTeam {
@@ -47,7 +58,7 @@
         .heading {
             font-size: 20vw;
             width: 60vw;
-            transform: translateX(-75px);
+            // transform: translateX(-15px);
             
         }
       }
@@ -76,7 +87,7 @@
         .heading {
             font-size: 20vw;
             width: 60vw;
-            transform: translateX(-75px);
+            transform: translateX(25px);
             
         }
       }
@@ -122,13 +133,15 @@
     }
 
     .subtitle {
-        font-family: "Roboto", sans-serif;
-        font-size: 1rem;
+        font-family: 'Staatliches', cursive;
+        width: 80vw;
+        // white-space: wrap;
+        font-size: 1.8rem;
         font-weight: 500;
         position: absolute;
-        width: 1000px;
-        bottom: calc(((0.6 * var(--heading-font-size)) - 96px) / 2);
-        left: calc((1.14 * var(--heading-font-size)) - 150px);
+        // width: px;
+        bottom: calc(((0.6 * var(--heading-font-size)) - 96px) / 9);
+        // left: calc((1.14 * var(--heading-font-size)) - 150px);
     }
 
     .header-btn-wrapper {
@@ -137,6 +150,13 @@
         position: absolute;
         right: calc(0.05 * var(--heading-font-size));
         bottom: calc(0.9 * var(--heading-font-size))
+    }
+
+    @media screen and (max-width: 450px) {
+        .header-btn-wrapper {
+            margin-top: 4.3rem;
+        }
+        
     }
 
     .intro-bg {

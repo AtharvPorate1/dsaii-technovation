@@ -42,10 +42,13 @@ const Home = ({ user }) => {
         <header className={cx(styles.introContent, styles.sectionHeader, 'container',)}>
           <h2 className={styles.heading}>
             <span style={{ marginRight: '3ch', color:'#15293D' }}>Technovation</span>
-            <span className={styles._ar} style={{color:'#15293D',}}>2024</span>
+            <span className={styles._ar} style={{color:'#15293D',}}>2.0</span>
           </h2>
-          <p className={styles.subtitle}></p>
+          <p className={styles.subtitle}>
+          Technovation is a dynamic synergy of technology and innovation, catalyzing creative solutions to real-world challenges. It encompasses events like hackathons and competitions, where individuals converge to showcase their technical prowess and problem-solving skills. These gatherings serve as platforms for budding engineers and innovators to collaborate, exchange ideas
+          </p>
           {/* TECHNOVATION WAS A STIMULATING AND ENRICHING EVENT HELD ON 24TH-25TH APRIL 2023. IT FEATURED A HACKATHON AND PROJECT COMPETITION INITIATED BY THE DSAII CLUB. THE EVENT AIMED TO BRING TOGETHER TALENTED ENGINEERING STUDENTS FROM ACROSS THE COUNTRY, PROVIDING THEM WITH A PLATFORM TO SHOWCASE THEIR SKILLS AND COMPETE IN THEIR RESPECTIVE DOMAINS. THE EVENT SERVED AS A PLATFORM FOR BUDDING INNOVATORS TO DEMONSTRATE THEIR INGENUITY AND CREATIVITY          </p> */}
+          
           <div className={styles['header-btn-wrapper']}>
             <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
               <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>DSAII'24 in reels</span>
@@ -80,8 +83,8 @@ const Home = ({ user }) => {
       <section className={cx(styles['home-section'], styles.coordinators)}>
         <header className={cx(styles.sectionHeader, 'container')}>
           <h2 className={styles.headingTeam}>
-            <span style={{ marginRight: '3ch' }}>Our</span>
-            <span className={styles._ar}>Team</span>
+            <span style={{ marginRight: '3ch', marginTop:'-14rem' }}>Our Sponsors</span>
+            {/* <span className={styles._ar}>Sponsors</span> */}
           </h2>
           <div className={cx(styles.subtitle, 'container')} id='coordinatorsList'>
             <ul>
