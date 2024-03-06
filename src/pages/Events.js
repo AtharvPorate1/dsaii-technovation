@@ -80,7 +80,7 @@ const Events = ({ user }) => {
       <main className={cx(styles['main-content'])}>
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
-            {['Mon.', 'Tue.'].map((day, i) => (
+            {['1 Apr.', '2 Apr.'].map((day, i) => (
               <ScheduleNavBtn key={day}
                 currentDay={currentDay} day={i}
                 label={day} handleDayChange={setCurrentDay} />
@@ -131,7 +131,7 @@ const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover
             : <p>{type} </p>}
           <h4>{title}</h4>
         </div>
-        <div className={styles.venue}>
+        <div className={styles.venue} >
           <p>{venue}</p>
         </div>
         <div className={styles.time}>

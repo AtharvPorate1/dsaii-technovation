@@ -11,6 +11,8 @@
     }
 
     .header-btn-wrapper {
+
+
         width: 100%;
         height: 8rem;
         margin: 0;
@@ -144,7 +146,7 @@
                     overflow: hidden;
                     padding: 2.5rem 0.625rem 0.4375rem 0.625rem;
                     z-index: 1;
-                    font-size: 1.3125rem;
+                    font-size: 1rem;
                     font-weight: 700;
                     line-height: 1.04;
                     .time {
@@ -294,11 +296,12 @@
     @media (max-aspect-ratio: 1 / 1),
     (max-width: 999px) {
         .event-list-wrapper .event-list .event-li .event-li-inner {
-            font-size: 1.2rem;
+            font-size: 0.5rem;
             .venue {
                 text-align: left;
                 font-weight: 400;
-                font-size: 1rem;
+                font-size: 0.5rem;
+
             }
             .title {
                 padding-top: 1rem;
