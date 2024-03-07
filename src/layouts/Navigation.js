@@ -7,7 +7,7 @@ const links = [
   { link: '/events', name: 'What\'s on' },
   { link: '/gallery', name: 'Gallery' },
   // { link: '/register', name: 'Register', auth: true },
-  { link: '/user', name: 'Profile', auth: true },
+  // { link: '/user', name: 'Profile', auth: true },
 ]
 
 const NavItem = ({ name, link, handleClick }) => (

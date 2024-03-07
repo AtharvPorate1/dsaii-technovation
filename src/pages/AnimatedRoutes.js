@@ -12,6 +12,9 @@ import UserProfile from "./UserProfile";
 import Admin from "./Admin";
 
 import { AnimatePresence } from 'framer-motion';
+import EventRegistrationForm from "./EventRegistration";
+// import EventRegistrationForm from "./EventRegistration";
+
 
 function AnimatedRoutes({ authUser, updateAuthUserAttr, handleLogout, checkingStatus }) {
   const location = useLocation();
@@ -22,7 +25,9 @@ function AnimatedRoutes({ authUser, updateAuthUserAttr, handleLogout, checkingSt
         <Route path="/" element={<Home user={authUser.user} />} />
         <Route path="/events" element={<Events user={authUser.user} />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/register"
+        <Route path="/register" element={<EventRegistrationForm />} />
+        {/* <Route path="/register" element={<EventRegistration />} /> */}
+        {/* <Route path="/register"
           element={<ProtectedComponent
             authUser={authUser}
             checkingStatus={checkingStatus}
@@ -49,7 +54,7 @@ function AnimatedRoutes({ authUser, updateAuthUserAttr, handleLogout, checkingSt
           <ProtectedComponent authUser={authUser} checkingStatus={checkingStatus} isAdmin={true} children={
             <Admin user={authUser} />
           } />
-        } />
+        } /> */}
       </Routes>
     </AnimatePresence>
   );

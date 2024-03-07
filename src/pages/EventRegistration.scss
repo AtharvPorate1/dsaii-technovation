@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+  }
+  
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height to fit your design */
+  }
+  
+  form {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Adjust maximum width as needed */
+    padding: 20px;
+    background-color: #f9f9f9; /* Adjust background color as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for form elements */
+  input[type="text"],
+  button,
+  label {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #007bff; /* Adjust button color as needed */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    form {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  
