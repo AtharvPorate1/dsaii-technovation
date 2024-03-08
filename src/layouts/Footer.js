@@ -81,14 +81,14 @@ const Footer = () => {
       </div>
       <div className={styles.copyright}>
         <div className={styles.team}>
-          <span>
+          {/* <span>
             Handcrafted with 🖤 by
             <button className={cx(styles.devteamBtn, {
               [styles.on]: devTeam
             })} onClick={(e) => { e.preventDefault(); setDevTeam(!devTeam) }}>
               Web Dev Team
             </button>
-          </span>
+          </span> */}
           <span className={styles.sep}>~</span>
           <span>&copy; 2023 DSAII DYPIT Pimpri</span>
           {devTeam && (
