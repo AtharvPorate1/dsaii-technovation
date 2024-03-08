@@ -38,54 +38,54 @@ export const coordinators = [
 
 export const mainCoordinators = [
   {
-    "name": "Sanika Karulkar",
+    "name": "",
     "imgSrc": "/path/to/image1.jpg",
-    "roles": ["President"]
+    "roles": [""]
   },
   {
-    "name": "Gourisha Verma",
+    "name": "",
     "imgSrc": "/path/to/image2.jpg",
-    "roles": ["Vice President"]
+    "roles": [""]
   },
   {
-    "name": "Gayatri Khirsagar",
+    "name": "",
     "imgSrc": "/path/to/image3.jpg",
-    "roles": ["Secretary"]
+    "roles": [""]
   },
   {
-    "name": "Aaditya Khairnar",
+    "name": "",
     "imgSrc": "/path/to/image4.jpg",
-    "roles": ["Joint Secretary"]
+    "roles": [""]
   },
   {
-    "name": "Rohit Kalaburgi",
+    "name": "",
     "imgSrc": "/path/to/image5.jpg",
-    "roles": ["Treasurer"]
+    "roles": [""]
   },
   {
-    "name": "Gunjan Potdukhe",
+    "name": "",
     "imgSrc": "/path/to/image6.jpg",
-    "roles": ["Marketing Head"]
+    "roles": [""]
   },
   {
-    "name": "Yash Thakur",
+    "name": "",
     "imgSrc": "/path/to/image7.jpg",
-    "roles": ["Technical Head"]
+    "roles": [""]
   },
   {
-    "name": "Saamya Daryanani",
+    "name": "",
     "imgSrc": "/path/to/image8.jpg",
-    "roles": ["Creative Head"]
+    "roles": [""]
   },
   {
-    "name": "Prajakta Gaikwad",
+    "name": "",
     "imgSrc": "/path/to/image9.jpg",
-    "roles": ["Cultural Head"]
+    "roles": [""]
   },
   {
-    "name": "Dhruv Pai",
+    "name": "",
     "imgSrc": "/path/to/image10.jpg",
-    "roles": ["Event Management Head"]
+    "roles": [""]
   }
 ]
 ;
