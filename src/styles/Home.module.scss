@@ -215,6 +215,8 @@
             font-size: 1.4rem;
             width: 1000px;
             left: calc((1.14 * var(--heading-font-size)) - 250px);
+            
+            text-align: justify;
         }
     }
 
@@ -265,6 +267,9 @@
                 animation: 100s infinite linear marquee;
             }
             
+        }
+        .subtitle{
+            text-align: justify;
         }
     }
 }
