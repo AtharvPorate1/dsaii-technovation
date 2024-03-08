@@ -95,12 +95,12 @@ export const highlights = ['0', '1','2','3','4'];
 export const events = {
   "0": {
     "id": "0",
-    "title": "TechNova",
+    "title": "TechNova : A project competition",
     "figureSrc": "/media/events/technova.jpeg.jpg",
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",
-    "desc": "Welcome to TechNova, our flagship event that celebrates vision and technical excellence! TechNova is not just a competition; it's a vibrant platform where creative minds from different domains come together to showcase their projects to expert judges. Whether you're into artificial intelligence, cybersecurity, software development, hardware design, or any other domain, TechNova is the place for you. We believe in fostering collaboration, pushing boundaries, and shaping the future through smart solutions. Join us on this exciting journey as we explore multiple domains and pave the way for a brighter tomorrow at TechNova!",
+    "desc": "",
     "type": "Technical",
     "highlight": false
   },
@@ -111,7 +111,7 @@ export const events = {
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",
-    "desc": "At Diplomatrix, we take case studies of different AI products widely used today and dive into solving the issues and conflicts surrounding these products. The event unfolds in three phases: Agenda Presentation, Collaboration and Resolution Drafting, and Resolution Presentation to expert judges. Teams collaborate to draft resolutions addressing governance issues and ethical considerations, which are then evaluated based on clarity, coherence, depth of research, feasibility of recommendations, and team collaboration. Join us at Diplomatrix for a transformative exploration of AI governance, where formal dress code adds to the professional atmosphere!",
+    "desc": "",
     "type": "Technical",
     "highlight": false
   },
@@ -122,7 +122,7 @@ export const events = {
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",
-    "desc": "Welcome to Bug Busters, where the code debugging champions are born! Bug Busters is a thrilling two-round contest designed to put your error correction skills to the ultimate test",
+    "desc": "",
     "type": "Technical",
     "highlight": false
   },
@@ -133,7 +133,7 @@ export const events = {
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",
-    "desc": "Dive into an engaging event where participants, divided into two groups, choose from thematic cases like Stranger Things and Harry Potter. The audience acts as the jury as teams compete for victory with thoughtfully crafted storylines. A comprehensive rule book ensures fairness, and participants showcase persuasive skills without AI tools. Join us for a short and competitive platform where advocacy prowess shines!",
+    "desc": "",
     "type": "Non-Technical",
     "highlight": false
   },
@@ -144,7 +144,7 @@ export const events = {
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",
-    "desc": "Engage in thrilling battles as two teams face off amid obstacles, barriers, and hiding spots. Participants must use their wits and blaster skills to outmaneuver and outgun opponents. The intense and exciting battle features foam darts flying fast and furious. Team up, strategize, and coordinate attacks to hit the enemy target for victory! Get ready for an adrenaline-pumping experience in the NERF ARENA!",
+    "desc": "",
     "type": "Non-Technical",
     "highlight": false
   },
@@ -155,7 +155,7 @@ export const events = {
     "day": 1,
     "time": "10:00 - 11:00",
     "venue": "Venue 1",
-    "desc": "Engage in thrilling battles as two teams face off amid obstacles, barriers, and hiding spots. Participants must use their wits and blaster skills to outmaneuver and outgun opponents. The intense and exciting battle features foam darts flying fast and furious. Team up, strategize, and coordinate attacks to hit the enemy target for victory! Get ready for an adrenaline-pumping experience in the NERF ARENA!",
+    "desc": "",
     "type": "Non-Technical",
     "highlight": false
   }
