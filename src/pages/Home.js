@@ -38,15 +38,17 @@ const Home = ({ user }) => {
           <div className={styles.rail}>
             {tags.map((tag, i) => <span key={i}>{tag} </span>)}
           </div>
+          <div className={styles.rail}>
+            {tags.map((tag, i) => <span key={i}>{tag} </span>)}
+          </div>
         </div>
         <header className={cx(styles.introContent, styles.sectionHeader, 'container',)}>
           <h2 className={styles.heading}>
-            <span style={{ marginRight: '3ch', color:'#15293D' }}>Technovation</span>
-            <span className={styles._ar} style={{color:'#15293D',}}>2.0</span>
+            <span style={{ marginRight: '3ch', color:'#15293D' }}>Anticipating</span>
+            <span className={styles._ar} style={{color:'#15293D',}}>Future</span>
           </h2>
           <p className={styles.subtitle}>
-          Technovation is a dynamic synergy of technology and innovation, catalyzing creative solutions to real-world challenges. It encompasses events like hackathons and competitions, where individuals converge to showcase their technical prowess and problem-solving skills. These gatherings serve as platforms for budding engineers and innovators to collaborate, exchange ideas
-          </p>
+          Get ready for the ultimate experience at Technovation 2.0, the flagship event of DSAII- Data Science and Artificial Intelligence Inquisitive Club! Dive into our tech events: TechNova for showcasing your brilliant projects, Diplomatrix for widening your research horizons, and Bug Buster to flex your debugging skills. But that's not all! Join the excitement of Suit Up!, where escape rooms lead to courtroom showdowns, and Nerf Arena, for an epic foam dart battle. It's innovation, intellect, and adrenaline all in one!          </p>
           {/* TECHNOVATION WAS A STIMULATING AND ENRICHING EVENT HELD ON 24TH-25TH APRIL 2023. IT FEATURED A HACKATHON AND PROJECT COMPETITION INITIATED BY THE DSAII CLUB. THE EVENT AIMED TO BRING TOGETHER TALENTED ENGINEERING STUDENTS FROM ACROSS THE COUNTRY, PROVIDING THEM WITH A PLATFORM TO SHOWCASE THEIR SKILLS AND COMPETE IN THEIR RESPECTIVE DOMAINS. THE EVENT SERVED AS A PLATFORM FOR BUDDING INNOVATORS TO DEMONSTRATE THEIR INGENUITY AND CREATIVITY          </p> */}
           
           <div className={styles['header-btn-wrapper']}>

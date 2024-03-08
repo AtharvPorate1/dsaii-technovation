@@ -134,13 +134,18 @@
 
     .subtitle {
         font-family: 'Staatliches', cursive;
-        width: 80vw;
+        position: absolute;
+        // width: 100000px;
+        // width: 80vw;
+        // margin-top: 10rem;
         // white-space: wrap;
         font-size: 1.8rem;
         font-weight: 500;
         position: absolute;
+        // margin-bottom: 2rem;
+        margin-top: -13rem;
         // width: px;
-        bottom: calc(((0.6 * var(--heading-font-size)) - 96px) / 9);
+        // bottom: calc(((0.6 * var(--heading-font-size)) ) / 100000);
         // left: calc((1.14 * var(--heading-font-size)) - 150px);
     }
 
@@ -156,6 +161,7 @@
         .header-btn-wrapper {
             margin-top: 4.3rem;
         }
+        
         
     }
 
@@ -189,10 +195,14 @@
             animation: 120s infinite linear marquee;    
         }
         .rail:nth-child(3) {
-            color: #c9c8c8;
+            color: #dad8d89e;
             top: 50%;
             animation: 100s infinite linear marquee;
         }
+        .rail:nth-child(4) {
+            visibility: hidden;
+        }
+        
 
         @keyframes marquee {
             from { transform: translateX(0); }
@@ -210,9 +220,10 @@
 
     @media screen and (min-width: 800px) {
         .subtitle {
-            font-size: 1.2rem;
-            width: 400px;
+            font-size: 1.5rem;
+            width: 57%;
             left: calc((1.14 * var(--heading-font-size)) - 200px);
+            margin-left: -8rem;
         }
     }
 
@@ -245,6 +256,15 @@
                     height: 1.2rem;
                 }
             }
+        }
+        .intro-bg{
+            .rail:nth-child(4) {
+                visibility: visible;
+                color: #dcdcdc;
+                top: 75%;
+                animation: 100s infinite linear marquee;
+            }
+            
         }
     }
 }
