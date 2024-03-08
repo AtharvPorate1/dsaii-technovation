@@ -50,7 +50,7 @@ const Gallery = ({ user }) => {
         </h1>
         <div className={cx('subtitle', styles['header-subtitle'])}>
           <h2>Apr.1-2</h2>
-          <div>Technovation'23 in Clips</div>
+          <div>Technovation'24 in Clips</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
@@ -58,18 +58,18 @@ const Gallery = ({ user }) => {
 
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
-            <h1> DAY 1
+            <h1> Coming Up Soon
             </h1>
-            <p>1<sup>st</sup> Apr</p>
+            {/* <p>1<sup>st</sup> Apr</p> */}
           </div>
-          <div className='Video'>
+          {/* <div className='Video'>
             <Video embedId={"lG3S6VUt7AE"} />
-          </div>
+          </div> */}
 
 
 
         </div>
-        <br />
+        {/* <br />
         <hr />
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
@@ -83,7 +83,7 @@ const Gallery = ({ user }) => {
           </div>
         </div>
         <br />
-        <hr />
+        <hr /> */}
 {/* 
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
