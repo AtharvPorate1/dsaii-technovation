@@ -129,7 +129,7 @@ export const events = {
   "3": {
     "id": "3",
     "title": "Suit-Up: Thematic Case Competition",
-    "figureSrc": "/media/events/band.jpg",
+    "figureSrc": "/media/events/suitup.jpeg.jpg",
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",
@@ -140,7 +140,7 @@ export const events = {
   "4": {
     "id": "4",
     "title": "Nerf Arena: Foam Dart Battle",
-    "figureSrc": "/media/events/band.jpg",
+    "figureSrc": "/media/events/nerf.jpeg.jpg",
     "day": 0,
     "time": "10:00 - 11:00",
     "venue": "",

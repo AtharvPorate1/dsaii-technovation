@@ -81,6 +81,8 @@ const Hero = () => {
           <span className='shouldAnimate'>0</span>
         </h1>
         
+        <div className={styles.label}>Days</div>
+        
         <div className={styles.timeline}>
           {!isLive && (<>
             <p>The countdown begins!</p>
