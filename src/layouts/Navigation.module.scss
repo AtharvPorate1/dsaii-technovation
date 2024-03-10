@@ -84,7 +84,7 @@
 .mobile-hamburger-btn::after {
     content: "Close";
     position: absolute;
-    top: 0;
+    top: 0.5rem;
     right: 0;
     transform: translate3d(0, 101%, 0);
 }

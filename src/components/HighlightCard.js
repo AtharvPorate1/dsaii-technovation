@@ -12,11 +12,6 @@ import{ events } from '../data/data';
 
 
 
-import { motion } from 'framer-motion'
-
-import style2 from '../styles/Home.module.scss';
-
-
 
 
 
@@ -76,22 +71,22 @@ const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user,
       <ScrollDownIcon />
     </div>
     <div style={{ flex: '2', minWidth: '200px', paddingLeft: '20px' }}>
-      <Typography variant="h3" sx={{ marginBottom: '20px', fontFamily:'fantasy' }}>{title}</Typography>
+      <Typography variant="h3" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>{title}</Typography>
       {/* <Typography variant="h4" sx={{ color: 'red', marginBottom: '10px' }}>Title</Typography> */}
       {/* <Typography variant="body1" sx={{ marginBottom: '20px' }}>Event title goes here</Typography> */}
 
-      <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'fantasy' }}>Description</Typography>
-      <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'fantasy' }}>{desc}</Typography>
-      <Typography variant="h5" sx={{ marginBottom: '10px',fontFamily:'fantasy' }}>Team :{teamSize}</Typography>
+      <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'Roboto' }}>Description</Typography>
+      <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>{desc}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px',fontFamily:'Roboto' }}>Team :{teamSize}</Typography>
       
       {/* <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'fantasy' }}>Description</Typography>
       <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'fantasy' }}>{desc}</Typography> */}
 
-      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'fantasy' }}>Type : {type}</Typography>
-      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'fantasy' }}>Fee : {fee}</Typography>
-      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'fantasy' }}>Time : {time}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Type : {type}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Fee : {fee}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Time : {time}</Typography>
       
-      <Button variant="contained" color="primary" sx={{ marginBottom: '20px', fontFamily:'fantasy' }}>Register</Button> 
+      <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>Register</Button> 
       {/* <Typography variant="h4" sx={{  marginBottom: '10px' }}>Registration Status</Typography>
       <Typography variant="body1" sx={{ marginBottom: '20px' }}>Registration status goes here</Typography> */}
 

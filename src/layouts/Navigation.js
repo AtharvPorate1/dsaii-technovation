@@ -51,13 +51,13 @@ const Navigation = ({ user }) => {
         </div>
         <button aria-label="Menu" className={styles['mobile-hamburger-btn']} type='button'
           onClick={(e) => { e.preventDefault(); toggleMobileNav(); }}>
-          Close
+          
         </button>
       </nav>
       <nav className={styles.mobile}>
         <button aria-label="Menu" className={styles['mobile-hamburger-btn']} type='button'
           onClick={(e) => { e.preventDefault(); toggleMobileNav(); }}>
-          Close
+          
         </button>
         <ul className={styles["router-links"]}>
           {links.filter(link => !link.auth || user.user).map(link =>

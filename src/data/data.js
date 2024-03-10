@@ -97,7 +97,7 @@ export const events = {
     "id": "0",
     "title": "TechNova : A project competition",
     "figureSrc": "/media/events/technova.jpeg.jpg",
-    "day": 0,
+    "day": 1,
     "time": "8:30 - 16:00",
     "venue": "",
     "desc": `Welcome to TechNova, our flagship event that celebrates vision and technical excellence! TechNova is not just a competition;
@@ -195,7 +195,7 @@ export const events = {
     "figureSrc": "/path/to/image5.jpg",
     "day": 1,
     "time": "9:00 AM onwards",
-    "venue": "Venue 1",
+    "venue": "x`  ",
     "desc": `In Nerf Arena, participants form teams and compete against each other in a battle using Nerf Guns.
      The competition takes place in an enclosed arena where teams will have to strategize and work together to eliminate
       their opponents while avoiding being hit themselves.`,
@@ -204,7 +204,25 @@ export const events = {
 
     "type": "Non-Technical",
     "highlight": false
-  }
+  },
+  "6": {
+    "id": "6",
+    "title": "Suit-Up: Thematic Case Competition",
+    "figureSrc": "/media/events/suitup.jpeg.jpg",
+    "day": 1,
+    "time": "9:00 AM onwards",
+    "venue": "",
+    "desc": `Suit Up is a thrilling event where teams compete in themed escape rooms inspired by Harry Potter and Evil Scientist. 
+    They gather evidence to prepare for a trial, don their personas, and engage in intense debates until one team emerges victorious
+     in the courtroom showdown.
+
+    `,
+    "teamSize": "2-4",
+    "fee": "200 per team",
+
+    "type": "Non-Technical",
+    "highlight": false
+  },
 }
 
 
