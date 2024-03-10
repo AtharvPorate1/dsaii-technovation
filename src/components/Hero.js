@@ -5,6 +5,7 @@ import { ReactComponent as ScrollDownIcon } from '../media/icons/down.svg';
 import HeroVideo from '../media/medium.mp4';
 import HeroImage from '../media/webbg.svg';
 import styles from './Hero.module.scss';
+import EventDrawer from "./EventDrawer";
 
 const Hero = () => {
   const [isLive, setIsLive] = useState(false);

@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import SupportLink from '../components/SupportLink';
 import { ReactComponent as LinkIcon } from '../media/icons/link.svg';
 
+
 const timeCompare = (a, b) => {
   if (events[a].time < events[b].time) {
     return -1;
@@ -60,6 +61,7 @@ const Events = ({ user }) => {
       animate={{ scaleX: 1 }}
       exit={{ scaleX: 0 }}
     >
+      
       <header className={cx('page-header', styles['page-header'])}>
         <h1 className='heading'>
           <span>Event</span>

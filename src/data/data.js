@@ -98,9 +98,17 @@ export const events = {
     "title": "TechNova : A project competition",
     "figureSrc": "/media/events/technova.jpeg.jpg",
     "day": 0,
-    "time": "10:00 - 11:00",
+    "time": "8:30 - 16:00",
     "venue": "",
-    "desc": "",
+    "desc": `Welcome to TechNova, our flagship event that celebrates vision and technical excellence! TechNova is not just a competition;
+     it's a vibrant platform where creative minds from different domains come together to showcase their projects to expert judges. 
+     Whether you're into artificial intelligence, cybersecurity, software development, hardware design, or any other domain, 
+     TechNova is the place for you. We believe in fostering collaboration, pushing boundaries, and shaping the future through smart solutions.
+      Join us on this exciting journey as we explore multiple domains and pave the way for a brighter tomorrow at TechNova!
+    `,
+    "teamSize": "2-5",
+    "fee": 200,
+    
     "type": "Technical",
     "highlight": false
   },
@@ -109,9 +117,21 @@ export const events = {
     "title": "Diplomatrix",
     "figureSrc": "/media/events/diplo.jpeg.jpg",
     "day": 0,
-    "time": "10:00 - 11:00",
+    "time": "8:30 - 16:00",
     "venue": "",
-    "desc": "",
+    "desc": `Welcome to Diplomatrix, a dynamic event designed to foster research propagation, corporate engagement experience, 
+    collaboration, and communication skills in the realm of Global Governance of Artificial Intelligence (AI). This comprehensive
+    event brings together diverse teams, including multinational corporations (MNCs) showcasing their AI technologies and governance
+    challenges, researchers providing insights from academic literature, and ethical committees addressing societal implications.
+    At Diplomatrix, we take case studies of different AI products widely used today and dive into solving the issues and conflicts
+    surrounding these products. The event unfolds in three phases: Agenda Presentation, Collaboration and Resolution Drafting, and
+    Resolution Presentation to expert judges. Teams collaborate to draft resolutions addressing governance issues and ethical 
+    considerations, which are then evaluated based on clarity, coherence, depth of research, feasibility of recommendations, 
+    and team collaboration. Join us at Diplomatrix for a transformative exploration of AI governance, where formal dress code
+    adds to the professional atmosphere!
+    `,
+    "teamSize": "2-3",
+    "fee": "50 per person",
     "type": "Technical",
     "highlight": false
   },
@@ -120,9 +140,18 @@ export const events = {
     "title": "Bug Buster",
     "figureSrc": "/media/events/bug3.jpeg.jpg",
     "day": 0,
-    "time": "10:00 - 11:00",
+    "time": "8:30 - 16:00",
     "venue": "",
-    "desc": "",
+    "desc":  `Welcome to Bug Busters, where the code debugging champions are born! Bug Busters is a thrilling two-round contest designed
+     to put your error correction skills to the ultimate test. In each round, teams consisting of 1-2 players will be challenged with 6 
+     intriguing questions that will push their problem-solving abilities to the limit. With only 2 hours allotted per round, the pressure 
+     is on to identify and fix as many bugs as possible within the given time frame. After the first round, teams will face elimination 
+     based on their performance, ensuring that only the best of the best advance to claim the title of Bug Busters champions. The contest 
+     will take place exclusively on the HackerRank platform. Bug Busters is the perfect arena to showcase your precision, speed and 
+     accuracy of code. So, sharpen your technical skills and gear up for the challenge!
+    `,
+    "teamSize": "1-2",
+    "fee": "75 per person",
     "type": "Technical",
     "highlight": false
   },
@@ -131,9 +160,16 @@ export const events = {
     "title": "Suit-Up: Thematic Case Competition",
     "figureSrc": "/media/events/suitup.jpeg.jpg",
     "day": 0,
-    "time": "10:00 - 11:00",
+    "time": "9:00 AM onwards",
     "venue": "",
-    "desc": "",
+    "desc": `Suit Up is a thrilling event where teams compete in themed escape rooms inspired by Harry Potter and Evil Scientist. 
+    They gather evidence to prepare for a trial, don their personas, and engage in intense debates until one team emerges victorious
+     in the courtroom showdown.
+
+    `,
+    "teamSize": "2-4",
+    "fee": "200 per team",
+
     "type": "Non-Technical",
     "highlight": false
   },
@@ -142,9 +178,14 @@ export const events = {
     "title": "Nerf Arena: Foam Dart Battle",
     "figureSrc": "/media/events/nerf.jpeg.jpg",
     "day": 0,
-    "time": "10:00 - 11:00",
+    "time": "9:00 AM onwards",
     "venue": "",
-    "desc": "",
+    "desc": `In Nerf Arena, participants form teams and compete against each other in a battle using Nerf Guns.
+     The competition takes place in an enclosed arena where teams will have to strategize and work together to eliminate their
+      opponents while avoiding being hit themselves.`,
+    "teamSize": "1",
+    "fee": "50 per person",
+
     "type": "Non-Technical",
     "highlight": false
   },
@@ -153,9 +194,14 @@ export const events = {
     "title": "Nerf Arena: Foam Dart Battle",
     "figureSrc": "/path/to/image5.jpg",
     "day": 1,
-    "time": "10:00 - 11:00",
+    "time": "9:00 AM onwards",
     "venue": "Venue 1",
-    "desc": "",
+    "desc": `In Nerf Arena, participants form teams and compete against each other in a battle using Nerf Guns.
+     The competition takes place in an enclosed arena where teams will have to strategize and work together to eliminate
+      their opponents while avoiding being hit themselves.`,
+    "teamSize": "1",
+    "fee": "50 per person",
+
     "type": "Non-Technical",
     "highlight": false
   }

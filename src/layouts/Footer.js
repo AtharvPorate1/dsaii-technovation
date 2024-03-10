@@ -17,7 +17,7 @@ const Footer = () => {
       <div className={styles.MainFooterContent}>
         <div className={cx(styles.footerItems)} id="footerContent">
           <div className={styles.QuotesContainer}>
-            <div className={styles.quotes}>Our cultural fest is a mosaic of traditions, where stories unfold, and memories are made</div>
+            <div className={styles.quotes} >Tech Set Go !</div>
           </div>
 
           <div>

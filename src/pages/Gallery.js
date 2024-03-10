@@ -2,6 +2,7 @@ import styles from '../styles/Gallery.module.scss';
 import cx from 'classnames';
 import 'react-html5video/dist/styles.css'
 import { motion } from 'framer-motion';
+import WovenImageList from '../components/GalleryComp';
 
 const Gallery = ({ user }) => {
 
@@ -49,8 +50,8 @@ const Gallery = ({ user }) => {
           <span>Gallery</span>
         </h1>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>Apr.1-2</h2>
-          <div>Technovation'24 in Clips</div>
+          <h2>May.4-6</h2>
+          <div>Technovation'23 in reels</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
@@ -58,24 +59,26 @@ const Gallery = ({ user }) => {
 
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
-            <h1> Coming Up Soon
+            <h1> DAY 1
             </h1>
-            {/* <p>1<sup>st</sup> Apr</p> */}
+            
+            <p>1<sup>st</sup> April</p>
           </div>
           {/* <div className='Video'>
             <Video embedId={"lG3S6VUt7AE"} />
+            
           </div> */}
 
 
 
         </div>
-        {/* <br />
-        <hr />
-        <div className={cx(styles['gallery'])}>
+        <br />
+        {/* <hr /> */}
+        {/* <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
             <h1> DAY 2
             </h1>
-            <p>2<sup>2nd</sup> Apr</p>
+            <p>5<sup>th</sup> May</p>
           </div>
           <div className='Video'>
 
@@ -83,8 +86,8 @@ const Gallery = ({ user }) => {
           </div>
         </div>
         <br />
-        <hr /> */}
-{/* 
+        <hr />
+
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
             <h1> DAY 3
@@ -93,9 +96,9 @@ const Gallery = ({ user }) => {
           </div>
           <div className='Video'>
             <Video embedId={"Mioso9Rv_N0"} />
-          </div> */}
+          </div>
 
-        {/* </div> */}
+        </div> */}
 
 
 

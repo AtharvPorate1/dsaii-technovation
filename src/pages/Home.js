@@ -11,6 +11,7 @@ import { events, highlights } from '../data/data';
 import { mainCoordinators, coordinators } from '../data/data'
 import Hero from '../components/Hero';
 import { motion } from 'framer-motion'
+import EventDrawer from '../components/EventDrawer';
 
 const tags = [
   'coding', 'programming', 'web development', 'software engineering', 'networking', 'data science',
@@ -65,6 +66,7 @@ const Home = ({ user }) => {
         <header className={styles.sectionHeader}>
           <h2 className={styles.heading} style={{transform:'translateX(-0.15ch)'}}>
             <span>Highlights</span>
+            
           </h2>
         </header>
 
