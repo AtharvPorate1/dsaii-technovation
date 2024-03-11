@@ -15,7 +15,7 @@ import{ events } from '../data/data';
 
 
 
-const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user,teamSize, fee, time }) => {
+const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user,teamSize, fee, time,link }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   
   return(
@@ -97,8 +97,9 @@ const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user,
       <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Type : {type}</Typography>
       <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Fee : {fee}</Typography>
       <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Time : {time}</Typography>
-      
-      <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>Register</Button> 
+      <a href={link} target='_blank' >
+      <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' } }>Register</Button> 
+      </a>
       {/* <Typography variant="h4" sx={{  marginBottom: '10px' }}>Registration Status</Typography>
       <Typography variant="body1" sx={{ marginBottom: '20px' }}>Registration status goes here</Typography> */}
 

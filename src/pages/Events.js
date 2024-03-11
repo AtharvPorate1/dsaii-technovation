@@ -185,7 +185,7 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
   </li>
 )
 
-const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover }) => {
+const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover,link }) => {
   return (
     <li className={cx(styles['event-li'])}>
       <article className={styles['event-li-inner']}
@@ -199,7 +199,9 @@ const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover
           <h4>{title}</h4>
         </div>
         <div className={styles.venue} >
+          <a href={link} target='_blank'>
           <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>Register</Button>
+          </a>
         </div>
         <div className={styles.time}>
           <p>{time}</p>

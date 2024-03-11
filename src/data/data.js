@@ -69,7 +69,7 @@ export const events = {
     `,
     "teamSize": "2-5",
     "fee": 200,
-    
+    "link":"https://forms.gle/cvR4CEtg7ifY3yiS9",
     "type": "Technical",
     "highlight": false
   },
@@ -93,6 +93,7 @@ export const events = {
     `,
     "teamSize": "2-3",
     "fee": "50 per person",
+    "link": "https://forms.gle/gXu8Rd4JX45dg93C7",
     "type": "Technical",
     "highlight": false
   },
@@ -113,6 +114,7 @@ export const events = {
     `,
     "teamSize": "1-2",
     "fee": "75 per person",
+    "link":"https://forms.gle/TWxnGQVoTTg6wfxA8",
     "type": "Technical",
     "highlight": false
   },
@@ -130,7 +132,7 @@ export const events = {
     `,
     "teamSize": "2-4",
     "fee": "200 per team",
-
+    "link":"https://forms.gle/XV18L4ZaqaaPx2Ap7",
     "type": "Non-Technical",
     "highlight": false
   },
@@ -146,7 +148,7 @@ export const events = {
       opponents while avoiding being hit themselves.`,
     "teamSize": "1",
     "fee": "50 per person",
-
+    "link":"https://forms.gle/EZyDjnq4jMNVQ9DU7",
     "type": "Non-Technical",
     "highlight": false
   },
@@ -162,7 +164,7 @@ export const events = {
       their opponents while avoiding being hit themselves.`,
     "teamSize": "1",
     "fee": "50 per person",
-
+    "link":"https://forms.gle/EZyDjnq4jMNVQ9DU7",
     "type": "Non-Technical",
     "highlight": false
   },
@@ -180,7 +182,7 @@ export const events = {
     `,
     "teamSize": "2-4",
     "fee": "200 per team",
-
+    "link":"https://forms.gle/XV18L4ZaqaaPx2Ap7",
     "type": "Non-Technical",
     "highlight": false
   },
