@@ -61,11 +61,11 @@ const Footer = () => {
                   <MailIcon />
                 </a>
               </li>
-              <li className={cx(styles['handle-wrapper'])}>
+              {/* <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="/">
                   <WAIcon />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
