@@ -13,6 +13,7 @@ import Image6 from '../media/gallery/IMG_5511.jpg';
 
 
 
+
 const Gallery = ({ user }) => {
 
   const Video = ({ embedId }) => {
