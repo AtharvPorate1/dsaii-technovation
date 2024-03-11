@@ -115,7 +115,7 @@ export const events = {
      accuracy of code. So, sharpen your technical skills and gear up for the challenge!
     `,
     "teamSize": "1-2",
-    "fee": "60 per person",
+    "fee": "75 per person or 120 per team",
     "link":"https://forms.gle/TWxnGQVoTTg6wfxA8",
     "type": "Technical",
     "date":'1st April 2024',
