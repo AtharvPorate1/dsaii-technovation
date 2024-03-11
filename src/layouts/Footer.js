@@ -42,13 +42,13 @@ const Footer = () => {
           <div >
             <p>Contact us</p>
             <ul className={styles.SocialHandles}>
-              <li className={cx(styles['handle-wrapper'])}>
+              {/* <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.facebook.com/">
                   <svg role="presentation" aria-label="Facebook" aria-hidden="true">
                     <use href="/media/icons/sprite.svg#social-facebook"></use>
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/technovation.dit/">
                   <svg role="presentation" aria-label="Twitter" aria-hidden="true">
@@ -57,7 +57,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="mailto:">
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="mailto:dsaii.dit@dypvp.edu.in">
                   <MailIcon />
                 </a>
               </li>

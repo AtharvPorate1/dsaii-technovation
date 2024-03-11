@@ -68,7 +68,7 @@ export const events = {
       Join us on this exciting journey as we explore multiple domains and pave the way for a brighter tomorrow at TechNova!
     `,
     "teamSize": "2-5",
-    "fee": 200,
+    "fee": "200 per team",
     "link":"https://forms.gle/cvR4CEtg7ifY3yiS9",
     "type": "Technical",
     "date":'2nd April 2024',
@@ -93,7 +93,7 @@ export const events = {
     adds to the professional atmosphere!
     `,
     "teamSize": "2-3",
-    "fee": "50 per person",
+    "fee": "60 per person",
     "link": "https://forms.gle/gXu8Rd4JX45dg93C7",
     "type": "Technical",
     "date":'1st April 2024',
@@ -115,7 +115,7 @@ export const events = {
      accuracy of code. So, sharpen your technical skills and gear up for the challenge!
     `,
     "teamSize": "1-2",
-    "fee": "75 per person",
+    "fee": "60 per person",
     "link":"https://forms.gle/TWxnGQVoTTg6wfxA8",
     "type": "Technical",
     "date":'1st April 2024',
@@ -134,7 +134,7 @@ export const events = {
 
     `,
     "teamSize": "2-4",
-    "fee": "200 per team",
+    "fee": "50 per person",
     "link":"https://forms.gle/XV18L4ZaqaaPx2Ap7",
     "type": "Non-Technical",
     "date":'1st-2nd April 2024',
@@ -187,7 +187,7 @@ export const events = {
 
     `,
     "teamSize": "2-4",
-    "fee": "200 per team",
+    "fee": "50 per person",
     "link":"https://forms.gle/XV18L4ZaqaaPx2Ap7",
     "type": "Non-Technical",
     "date":'1st-2nd April 2024',

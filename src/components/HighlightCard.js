@@ -83,22 +83,22 @@ const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user,
       <ScrollDownIcon />
     </div>
     <div style={{ flex: '2', minWidth: '200px', paddingLeft: '20px', alignItems:'center' }}>
-      <Typography variant="h3" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>{title}</Typography>
+      <Typography variant="h3" sx={{ marginBottom: '20px', fontFamily:'Staatliches' }}>{title}</Typography>
       {/* <Typography variant="h4" sx={{ color: 'red', marginBottom: '10px' }}>Title</Typography> */}
       {/* <Typography variant="body1" sx={{ marginBottom: '20px' }}>Event title goes here</Typography> */}
 
-      <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'Roboto' }}>Description</Typography>
-      <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>{desc}</Typography>
-      <Typography variant="h5" sx={{ marginBottom: '10px',fontFamily:'Roboto' }}>Team :{teamSize}</Typography>
+      <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'Staatliches' }}>Description</Typography>
+      <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'Staatliches' }}>{desc}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px',fontFamily:'Staatliches' }}>Team :{teamSize}</Typography>
       
       {/* <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'fantasy' }}>Description</Typography>
       <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'fantasy' }}>{desc}</Typography> */}
 
-      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Type : {type}</Typography>
-      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Fee : {fee}</Typography>
-      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Time : {time}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Staatliches' }}>Type : {type}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Staatliches' }}>Fee : {fee}</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Staatliches' }}>Time : {time}</Typography>
       <a href={link} target='_blank' >
-      <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' } }>Register</Button> 
+      <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Staatliches' } }>Register</Button> 
       </a>
       {/* <Typography variant="h4" sx={{  marginBottom: '10px' }}>Registration Status</Typography>
       <Typography variant="body1" sx={{ marginBottom: '20px' }}>Registration status goes here</Typography> */}
