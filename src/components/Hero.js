@@ -86,7 +86,7 @@ const Hero = () => {
         
         <div className={styles.timeline}>
           {!isLive && (<>
-            <p>The countdown begins!</p>
+            <p>On 1st and 2nd Apr.</p>
             <CountdownTimer countdownDate={eventStartDate} handleTimerComplete={setIsLive} />
           </>)}
         </div>

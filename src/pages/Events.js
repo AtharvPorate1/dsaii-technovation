@@ -6,6 +6,9 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import SupportLink from '../components/SupportLink';
 import { ReactComponent as LinkIcon } from '../media/icons/link.svg';
+import { Box, Button, Drawer, IconButton, Typography } from '@mui/material';
+import { ReactComponent as ScrollDownIcon } from '../media/icons/select-down-icon.svg';
+
 
 
 const timeCompare = (a, b) => {
@@ -22,6 +25,7 @@ const Events = ({ user }) => {
   const eventFigureWrapper = useRef(null);
   const [currentDay, setCurrentDay] = useState(0);
   const [activeEventId, setActiveEventId] = useState(null);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   useEffect(() => {
     const wrapper = eventFigureWrapper.current;
@@ -89,11 +93,11 @@ const Events = ({ user }) => {
             ))}
           </ul>
         </nav>
-        <section ref={eventFigureWrapper} className={styles['event-list-wrapper']}>
+        <section ref={eventFigureWrapper} className={styles['event-list-wrapper']}  >
           <ul className={styles['event-list']}>
             {Object.keys(events).filter(id => events[id].day === currentDay)
               .sort(timeCompare)
-              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)}
+              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId}/>)}
           </ul>
           <div className={styles['event-figures']}>
             <div className={styles.figures}>
@@ -105,6 +109,67 @@ const Events = ({ user }) => {
       </main>
       <div className='container'>
         <SupportLink />
+        <Drawer
+  anchor='bottom'
+  open={isDrawerOpen} 
+  onClose={()=> setIsDrawerOpen(false)}
+>
+  <Box sx={{ 
+    width: '100%',
+    height: 400, 
+    overflowY: 'scroll',
+    backgroundColor: 'beige',
+    padding: '20px',
+    fontFamily: 'Arial, sans-serif',
+    color: 'black',
+    textAlign: 'left',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    position: 'relative' // Added position relative to the parent box
+  }}>
+    <div style={{
+  flex: '1',
+  minWidth: '200px',
+  marginBottom: '20px',
+  justifySelf: 'center',
+  textAlign: 'center', // Added text-align center for centering the image
+  '@media (max-width: 600px)': { // Media query for mobile view
+    flex: '1', // Adjust flex property to allow centering
+    width: '100%', // Set width to 100% to make it fill the container
+    marginBottom: '10px' // Adjust margin for better spacing
+  }
+}}>
+  {/* <img alt='' src={figureSrc} style={{ width: '80%', height: 'auto' }} /> */}
+</div>
+
+    <div style={{ position: 'absolute', bottom: '10px', right: '10px' }}>
+      <ScrollDownIcon />
+    </div>
+    <div style={{ flex: '2', minWidth: '200px', paddingLeft: '20px', alignItems:'center' }}>
+      <Typography variant="h3" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}></Typography>
+      {/* <Typography variant="h4" sx={{ color: 'red', marginBottom: '10px' }}>Title</Typography> */}
+      {/* <Typography variant="body1" sx={{ marginBottom: '20px' }}>Event title goes here</Typography> */}
+
+      <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'Roboto' }}>Description</Typography>
+      <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}></Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px',fontFamily:'Roboto' }}>Team :</Typography>
+      
+      {/* <Typography variant="h4" sx={{ marginBottom: '10px',fontFamily:'fantasy' }}>Description</Typography>
+      <Typography variant="body1" sx={{ marginBottom: '20px', fontFamily:'fantasy' }}>{desc}</Typography> */}
+
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Type :</Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Fee : </Typography>
+      <Typography variant="h5" sx={{ marginBottom: '10px', fontFamily:'Roboto' }}>Time : </Typography>
+      
+      <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>Register</Button> 
+      {/* <Typography variant="h4" sx={{  marginBottom: '10px' }}>Registration Status</Typography>
+      <Typography variant="body1" sx={{ marginBottom: '20px' }}>Registration status goes here</Typography> */}
+
+      {/* Add more event details as needed */}
+    </div>
+  </Box>
+</Drawer>
       </div>
     </motion.div>
   )
@@ -134,7 +199,7 @@ const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover
           <h4>{title}</h4>
         </div>
         <div className={styles.venue} >
-          <p>{venue}</p>
+          <Button variant="contained" style={{backgroundColor:'#991E41'}} sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>Register</Button>
         </div>
         <div className={styles.time}>
           <p>{time}</p>

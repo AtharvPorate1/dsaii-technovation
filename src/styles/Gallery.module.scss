@@ -95,3 +95,13 @@
         }
     }
 }
+
+.imageContainer {
+    margin-bottom: 1rem; /* Adding a gap of 1rem between images */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100%; /* To make sure image fits container */
+  }

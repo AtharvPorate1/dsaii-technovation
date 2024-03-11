@@ -1,14 +1,21 @@
 import styles from '../styles/Gallery.module.scss';
 import cx from 'classnames';
-import 'react-html5video/dist/styles.css'
+import 'react-html5video/dist/styles.css';
 import { motion } from 'framer-motion';
 import WovenImageList from '../components/GalleryComp';
 import { ImageList, ImageListItem } from '@mui/material';
+import Image1 from '../media/gallery/DSC_4277.jpg';
+import Image2 from '../media/gallery/DSC_4280.jpg';
+import Image3 from '../media/gallery/DSC_4669.jpg';
+import Image4 from '../media/gallery/DSC_4780.jpg';
+import Image5 from '../media/gallery/DSC_4441.jpg';
+import Image6 from '../media/gallery/IMG_5511.jpg';
+
+
 
 const Gallery = ({ user }) => {
 
   const Video = ({ embedId }) => {
-
     return (
       <div style={{
         overflow: "hidden",
@@ -33,36 +40,22 @@ const Gallery = ({ user }) => {
           title='Embeded Youtube'
         />
       </div>
-    )
+    );
+  };
 
-  }
   const Image = ({ src, alt, width, height }) => {
     return (
-      <div style={{
-        overflow: "hidden",
-        position: 'relative',
-        height: "50vh",
-        width: "100%"
-      }}>
+      <div className={styles.imageContainer}>
         <img
           src={src}
           alt={alt}
-          style={{
-            position: "absolute",
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-          }}
+          className={styles.image}
           width={width}
           height={height}
         />
       </div>
     );
   };
-  
-
-
-
 
   return (
     <motion.div className={cx(styles.events, 'page-transition', 'container')}
@@ -80,59 +73,19 @@ const Gallery = ({ user }) => {
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
-
-
         <div className={cx(styles['gallery'])}>
-          <div className={cx(styles['h1'])}>
-            <h1> DAY 1
-            </h1>
-            
-            <p>1<sup>st</sup> April</p>
-          </div>
-          <div className='Video'>
-            <Video embedId={"lG3S6VUt7AE"} />
-         
-            
-          </div>
-
-
+          
+          <Image src={Image1} alt="ak" width="50vw" height="auto" />
+          <Image src={Image2} alt="ak" width="50vw" height="auto" />
+          <Image src={Image3} alt="ak" width="50vw" height="auto" />
+          <Image src={Image4} alt="ak" width="50vw" height="auto" />
+          <Image src={Image5} alt="ak" width="50vw" height="auto" />
+          <Image src={Image6} alt="ak" width="50vw" height="auto" />
 
         </div>
-        <br />
-        {/* <hr /> */}
-        {/* <div className={cx(styles['gallery'])}>
-          <div className={cx(styles['h1'])}>
-            <h1> DAY 2
-            </h1>
-            <p>5<sup>th</sup> May</p>
-          </div>
-          <div className='Video'>
-
-            <Video embedId={'xwGDkyz_LgI'} />
-          </div>
-        </div>
-        <br />
-        <hr />
-
-        <div className={cx(styles['gallery'])}>
-          <div className={cx(styles['h1'])}>
-            <h1> DAY 3
-            </h1>
-            <p>6<sup>th</sup> May</p>
-          </div>
-          <div className='Video'>
-            <Video embedId={"Mioso9Rv_N0"} />
-          </div>
-
-        </div> */}
-
-
-
-
-
       </main>
     </motion.div>
-  )
-}
+  );
+};
 
 export default Gallery;

@@ -4,7 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function WovenImageList() {
   return (
-    <ImageList sx={{ width: 100, height: 450 }} variant="woven" cols={3} gap={8}>
+    <ImageList sx={{ width: 1536, height: '100%' }} variant="woven" cols={3} gap={8}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
