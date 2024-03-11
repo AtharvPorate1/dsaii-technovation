@@ -38,55 +38,16 @@ export const coordinators = [
 
 export const mainCoordinators = [
   {
-    "name": "",
-    "imgSrc": "/path/to/image1.jpg",
+    "name": "Ethans",
+    "imgSrc": "/media/coordinators/Ethans.png",
     "roles": [""]
   },
   {
-    "name": "",
-    "imgSrc": "/path/to/image2.jpg",
+    "name": "Imperial",
+    "imgSrc": "/media/coordinators/Imperial.jpg",
     "roles": [""]
   },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image3.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image4.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image5.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image6.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image7.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image8.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image9.jpg",
-    "roles": [""]
-  },
-  {
-    "name": "",
-    "imgSrc": "/path/to/image10.jpg",
-    "roles": [""]
-  }
+
 ]
 ;
 

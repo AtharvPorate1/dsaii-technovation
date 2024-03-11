@@ -64,13 +64,25 @@ const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user,
     flexWrap: 'wrap',
     position: 'relative' // Added position relative to the parent box
   }}>
-    <div style={{ flex: '1', minWidth: '200px', marginBottom: '20px' }}>
-      <img alt='' src={figureSrc} style={{ width: '80%', height: 'auto' }} />
-    </div>
+    <div style={{
+  flex: '1',
+  minWidth: '200px',
+  marginBottom: '20px',
+  justifySelf: 'center',
+  textAlign: 'center', // Added text-align center for centering the image
+  '@media (max-width: 600px)': { // Media query for mobile view
+    flex: '1', // Adjust flex property to allow centering
+    width: '100%', // Set width to 100% to make it fill the container
+    marginBottom: '10px' // Adjust margin for better spacing
+  }
+}}>
+  <img alt='' src={figureSrc} style={{ width: '80%', height: 'auto' }} />
+</div>
+
     <div style={{ position: 'absolute', bottom: '10px', right: '10px' }}>
       <ScrollDownIcon />
     </div>
-    <div style={{ flex: '2', minWidth: '200px', paddingLeft: '20px' }}>
+    <div style={{ flex: '2', minWidth: '200px', paddingLeft: '20px', alignItems:'center' }}>
       <Typography variant="h3" sx={{ marginBottom: '20px', fontFamily:'Roboto' }}>{title}</Typography>
       {/* <Typography variant="h4" sx={{ color: 'red', marginBottom: '10px' }}>Title</Typography> */}
       {/* <Typography variant="body1" sx={{ marginBottom: '20px' }}>Event title goes here</Typography> */}

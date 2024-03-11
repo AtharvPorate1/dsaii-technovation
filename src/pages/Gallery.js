@@ -3,6 +3,7 @@ import cx from 'classnames';
 import 'react-html5video/dist/styles.css'
 import { motion } from 'framer-motion';
 import WovenImageList from '../components/GalleryComp';
+import { ImageList, ImageListItem } from '@mui/material';
 
 const Gallery = ({ user }) => {
 
@@ -35,6 +36,30 @@ const Gallery = ({ user }) => {
     )
 
   }
+  const Image = ({ src, alt, width, height }) => {
+    return (
+      <div style={{
+        overflow: "hidden",
+        position: 'relative',
+        height: "50vh",
+        width: "100%"
+      }}>
+        <img
+          src={src}
+          alt={alt}
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover"
+          }}
+          width={width}
+          height={height}
+        />
+      </div>
+    );
+  };
+  
 
 
 
@@ -50,7 +75,7 @@ const Gallery = ({ user }) => {
           <span>Gallery</span>
         </h1>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>May.4-6</h2>
+          <h2>Apr.1-2</h2>
           <div>Technovation'23 in reels</div>
         </div>
       </header>
@@ -64,10 +89,11 @@ const Gallery = ({ user }) => {
             
             <p>1<sup>st</sup> April</p>
           </div>
-          {/* <div className='Video'>
+          <div className='Video'>
             <Video embedId={"lG3S6VUt7AE"} />
+         
             
-          </div> */}
+          </div>
 
 
 
