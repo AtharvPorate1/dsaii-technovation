@@ -51,7 +51,7 @@ export const mainCoordinators = [
 ]
 ;
 
-export const highlights = ['0', '1','2','3','4'];
+export const highlights = ['0', '1','2','3','4','7'];
 
 export const events = {
   "0": {
@@ -188,6 +188,25 @@ export const events = {
     `,
     "teamSize": "2-4",
     "fee": "50 per person",
+    "link":"https://forms.gle/XV18L4ZaqaaPx2Ap7",
+    "type": "Non-Technical",
+    "date":'1st-2nd April 2024',
+    "highlight": false
+  },
+  "7": {
+    "id": "7",
+    "title": "Virtual Reality Gaming",
+    "figureSrc": "/media/events/ar_event.jpg",
+    "day": 1,
+    "time": "9:00 AM onwards",
+    "venue": "",
+    "desc": `Suit Up is a thrilling event where teams compete in themed escape rooms inspired by Harry Potter and Evil Scientist. 
+    They gather evidence to prepare for a trial, don their personas, and engage in intense debates until one team emerges victorious
+     in the courtroom showdown.
+
+    `,
+    "teamSize": "1",
+    "fee": "120 for 12 minutes",
     "link":"https://forms.gle/XV18L4ZaqaaPx2Ap7",
     "type": "Non-Technical",
     "date":'1st-2nd April 2024',
