@@ -1,9 +1,9 @@
 import styles from '../styles/Footer.module.scss';
-import logo from '../media/logo/atulyamLogo.png'
+// import logo from '../media/logo/atulyamLogo.png'
 
-import echoOfArunachal from '../media/logo/echo_arunachal.png'
-import hotelObsidianBlue from '../media/logo/hotel-obsidian-blue.png'
-import bye from '../media/bye.png';
+// import echoOfArunachal from '../media/logo/echo_arunachal.png'
+// import hotelObsidianBlue from '../media/logo/hotel-obsidian-blue.png'
+// import bye from '../media/bye.png';
 import cx from 'classnames'
 import { ReactComponent as MailIcon } from '../media/icons/mail.svg';
 import { ReactComponent as WAIcon } from '../media/icons/wa.svg';

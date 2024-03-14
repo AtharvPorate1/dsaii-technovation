@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy } from "react";
 import styles from './CountdownTimer.module.scss';
 
 const CountdownTimer = ({countdownDate: toDate, handleTimerComplete}) => {
@@ -29,7 +29,9 @@ const CountdownTimer = ({countdownDate: toDate, handleTimerComplete}) => {
   }, [toDate])
 
   return (
-      <div className={styles.timer}>
+    <div onLoadStart={lazy}>
+      <div className={styles.timer} >
+        
         <div className={styles['counter-wrapper']}>
           <div className={styles.counter}>
             {day.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})}
@@ -54,6 +56,7 @@ const CountdownTimer = ({countdownDate: toDate, handleTimerComplete}) => {
           </div>
           <div className={styles.label}>Seconds</div>
         </div>
+      </div>
       </div>
   )
 }
