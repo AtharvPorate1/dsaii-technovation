@@ -9,6 +9,10 @@ import { ReactComponent as MailIcon } from '../media/icons/mail.svg';
 import { ReactComponent as WAIcon } from '../media/icons/wa.svg';
 import { useState } from 'react';
 
+
+//// Sooooor\oooorya Singhammmmmmmm
+
+
 const Footer = () => {
   const [devTeam, setDevTeam] = useState(false);
 
