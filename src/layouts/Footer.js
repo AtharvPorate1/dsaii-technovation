@@ -10,7 +10,7 @@ import { ReactComponent as WAIcon } from '../media/icons/wa.svg';
 import { useState } from 'react';
 
 
-//// Sooooor\oooorya Singhammmmmmmm
+
 
 
 const Footer = () => {

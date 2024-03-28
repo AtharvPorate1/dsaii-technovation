@@ -39,7 +39,7 @@ export const coordinators = [
 export const mainCoordinators = [
   {
     "name": "Ethans",
-    "imgSrc": "/media/coordinators/Ethans.png",
+    "imgSrc": "/media/coordinators/Ethans.jpg",
     "roles": [""]
   },
   {
