@@ -37,14 +37,25 @@ export const coordinators = [
 ;
 
 export const mainCoordinators = [
+  
+  {
+    "name": "Imperial",
+    "imgSrc": "/media/coordinators/Imperial.jpg",
+    "roles": [""]
+  },
   {
     "name": "Ethans",
     "imgSrc": "/media/coordinators/Ethans.jpg",
     "roles": [""]
   },
   {
-    "name": "Imperial",
-    "imgSrc": "/media/coordinators/Imperial.jpg",
+    "name": "Acampus",
+    "imgSrc": "/media/coordinators/Acampus.png",
+    "roles": [""]
+  },
+  {
+    "name": "Tacobell",
+    "imgSrc": "/media/coordinators/Tacobell.jpg",
     "roles": [""]
   },
 
