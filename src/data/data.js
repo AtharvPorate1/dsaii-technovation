@@ -220,7 +220,29 @@ export const events = {
 
     `,
     "teamSize": "1",
-    "fee": "120 for 12 minutes",
+    "fee": "120 for 10 minutes",
+    "link":"https://forms.gle/5D7KAnqvU2GLdKcA8",
+    "type": "Non-Technical",
+    "date":'1st-2nd April 2024',
+    "highlight": false
+  },
+  "8": {
+    "id": "8",
+    "title": "Virtual Reality Gaming",
+    "figureSrc": "/media/events/ar_event.jpg",
+    "day": 0,
+    "time": "9:00 AM onwards",
+    "venue": "",
+    "desc": `IMMERSE YOURSELF IN A WORLD OF VIRTUAL EXPERIENCES WHERE YOU CAN
+    EXPLORE FASCINATING LANDSCAPES, ENGAGE IN THRILLING ADVENTURES, AND
+    INTERACT WITH VIRTUAL ENVIRONMENTS. THIS EVENT OFFERS STUDENTS THE
+    OPPORTUNITY TO DIVE INTO THE EXCITING REALM OF VIRTUAL REALITY AND
+    DISCOVER THE ENDLESS POSSIBILITIES IT OFFERS. JOIN US FOR AN UNFORGETTABLE
+    JOURNEY INTO THE WORLD OF VR!
+
+    `,
+    "teamSize": "1",
+    "fee": "120 for 10 minutes",
     "link":"https://forms.gle/5D7KAnqvU2GLdKcA8",
     "type": "Non-Technical",
     "date":'1st-2nd April 2024',
